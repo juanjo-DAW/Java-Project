@@ -6,4 +6,4 @@ El proyecto consiste en la creacion de una pagina web que recopila informacion s
 Nuestra apliacion primeramente te enseñara una pequeña interfaz grafica donde tendras que escojer un formulario a rellenar y rellenar, donde posteriormente la aplicacion se encargara de recopilar y guardar la informacion introducida por los clientes.
 ## JavaDoc
 El JavaDoc que hemos generado sirve como una pequeñla guia para poder explicar algunas de las funciones y metodos utilizados en nuestro codigo.
-file:///F:/JavaDoc/index.html
+URL JavaDoc --> file:///F:/JavaDoc/index.html
