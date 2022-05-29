@@ -8,7 +8,7 @@ El proyecto consiste en la creacion de una pagina web que recopila informacion s
 Nuestra apliacion primeramente te enseñara una pequeña interfaz grafica donde tendras que escojer un formulario a rellenar y rellenar, donde posteriormente la aplicacion se encargara de recopilar y guardar la informacion introducida por los clientes.
 
 ## Requerimientos
-1-Dissenyar i implementar la interfície gràfica per tal que l’usuari pugui introduir un nou article al sistema
+### 1-Dissenyar i implementar la interfície gràfica per tal que l’usuari pugui introduir un nou article al sistema
 2-Dissenyar e implementar les classes, objectes i interfícies necessàries seguint la filosofia d’aplicacions modulars de Java
 3-Modelar la base de dades (taules, claus primàries, claus forànies, ...) que reculli les entitats del project. Cal afegir al projecte els scripts de creació de la bb (taules, registres, …).
 4-OPCIONAL: Calcular les estadístiques* (mostrar per consola i guardar en un fitxer)
