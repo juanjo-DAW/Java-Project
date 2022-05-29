@@ -1,5 +1,5 @@
 # Java-Project
-# Nombre del proyecto --> Observadores del Mar
+# Nombre del proyecto: Observadores del Mar
 ## Explicacion de proyecto
 El proyecto consiste en la creacion de una pagina web que recopila informacion sobre los animales observados por las zonas maritimas y cercanias, como podria ser la costa.
 ## Aplicacion
