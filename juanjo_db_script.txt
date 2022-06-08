@@ -40,7 +40,7 @@ CREATE TABLE `Pajaros` (
 -- --------------------------------------------------------
 
 --
--- Table structure for table `Peces`
+-- Table structure for table `Ballenas`
 --
 
 CREATE TABLE `Ballenas` (
