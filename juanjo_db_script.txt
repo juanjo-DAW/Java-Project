@@ -1,0 +1,131 @@
+-- Creacion del Script
+
+SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
+START TRANSACTION;
+SET time_zone = "+00:00";
+
+
+/*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;
+/*!40101 SET @OLD_CHARACTER_SET_RESULTS=@@CHARACTER_SET_RESULTS */;
+/*!40101 SET @OLD_COLLATION_CONNECTION=@@COLLATION_CONNECTION */;
+/*!40101 SET NAMES utf8mb4 */;
+
+--
+-- Database: `juanjo_db`
+--
+CREATE DATABASE IF NOT EXISTS `juanjo_db` DEFAULT CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci;
+USE `juanjo_db`;
+
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `Pajaros`
+--
+
+CREATE TABLE `Pajaros` (
+  `ID` int(11) AUTO_INCREMENT,
+  `Especie` varchar(255) DEFAULT NULL,
+  `Genero` varchar(255) DEFAULT NULL,
+  `Habitat` varchar(255) DEFAULT NULL,
+  `Tiempo_Navegacion` varchar(255) DEFAULT NULL,
+  `Hora_Llegada` varchar(255) DEFAULT NULL,
+  `Viento` varchar(255) DEFAULT NULL,
+  `Nubosidad` varchar(255) DEFAULT NULL,
+  `Direccion_Viento` varchar(255) DEFAULT NULL,
+  `Size` varchar(255) DEFAULT NULL,
+  `Embarcaciones` varchar(255) DEFAULT NULL,
+  `Parasitos` varchar(255) DEFAULT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `Peces`
+--
+
+CREATE TABLE `Ballenas` (
+  `ID` int(11) AUTO_INCREMENT,
+  `Especie` varchar(255) DEFAULT NULL,
+  `Genero` varchar(255) DEFAULT NULL,
+  `Habitat` varchar(255) DEFAULT NULL,
+  `Tiempo_Navegacion` varchar(255) DEFAULT NULL,
+  `Hora_Llegada` varchar(255) DEFAULT NULL,
+  `Viento` varchar(255) DEFAULT NULL,
+  `Nubosidad` varchar(255) DEFAULT NULL,
+  `Direccion_Viento` varchar(255) DEFAULT NULL,
+  `Size` varchar(255) DEFAULT NULL,
+  `Embarcaciones` varchar(255) DEFAULT NULL,
+  `Profundidad` varchar(255) DEFAULT NULL,
+  `Parasitos` varchar(255) DEFAULT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `Tiburones`
+--
+
+CREATE TABLE `Mantarrayas` (
+  `ID` int(11) AUTO_INCREMENT,
+  `Especie` varchar(255) DEFAULT NULL,
+  `Genero` varchar(255) DEFAULT NULL,
+  `Habitat` varchar(255) DEFAULT NULL,
+  `Tiempo_Navegacion` varchar(255) DEFAULT NULL,
+  `Hora_Llegada` varchar(255) DEFAULT NULL,
+  `Viento` varchar(255) DEFAULT NULL,
+  `Nubosidad` varchar(255) DEFAULT NULL,
+  `Direccion_Viento` varchar(255) DEFAULT NULL,
+  `Size` varchar(255) DEFAULT NULL,
+  `Embarcaciones` varchar(255) DEFAULT NULL,
+  `Venenosas` varchar(255) DEFAULT NULL,
+  `Profundidad` varchar(255) DEFAULT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+
+--
+-- Indexes for dumped tables
+--
+
+--
+-- Indexes for table `Pajaros`
+--
+ALTER TABLE `Pajaros`
+  ADD PRIMARY KEY (`ID`);
+
+--
+-- Indexes for table `Ballenas`
+--
+ALTER TABLE `Ballenas`
+  ADD PRIMARY KEY (`ID`);
+
+--
+-- Indexes for table `Mantarrayas`
+--
+ALTER TABLE `Mantarrayas`
+  ADD PRIMARY KEY (`ID`);
+
+--
+-- AUTO_INCREMENT for dumped tables
+--
+
+--
+-- AUTO_INCREMENT for table `Pajaros`
+--
+ALTER TABLE `Pajaros`
+  MODIFY `ID` int(11) NOT NULL AUTO_INCREMENT;
+
+--
+-- AUTO_INCREMENT for table `Ballenas`
+--
+ALTER TABLE `Ballenas`
+  MODIFY `ID` int(11) NOT NULL AUTO_INCREMENT;
+
+--
+-- AUTO_INCREMENT for table `Mantarrayas`
+--
+ALTER TABLE `Mantarrayas`
+  MODIFY `ID` int(11) NOT NULL AUTO_INCREMENT;
+COMMIT;
+
+/*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
+/*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
+/*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
